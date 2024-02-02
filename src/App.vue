@@ -12,9 +12,9 @@
   let questions = [
     { image: "quizzImages/quizz1.png", variants: ["Loop", "Function", "Array"], answer: "Loop" },
     { image: "quizzImages/quizz2.png", variants: ["Function", "Loop", "Array"], answer: "Array" },
-    { image: "quizzImages/guizz3.png", variants: ["Interface", "Class", "Enumirate"], answer: "Class" },
-    { image: "quizzImages/quizz4.png", variants: ["Enumirate", "Interface", "Class" ], answer: "Enumirate" },
-    { image: "quizzImages/quizz5.png", variants: [ "Class", "Interface", "Enumirate"], answer: "Interface" },
+    { image: "quizzImages/guizz3.png", variants: ["Interface", "Class", "Enumerate"], answer: "Class" },
+    { image: "quizzImages/quizz4.png", variants: ["Enumerate", "Interface", "Class" ], answer: "Enumerate" },
+    { image: "quizzImages/quizz5.png", variants: [ "Class", "Interface", "Enumerate"], answer: "Interface" },
     { image: "quizzImages/quizz6.png", variants: [ "Test Class", "Test Function", "Mingi jama"], answer: "Test Function" },
     { image: "quizzImages/quizz7.png", variants: [ "HTML", "CSS", "Javascript"], answer: "Javascript" },
     { image: "quizzImages/quizz8.png", variants: [ "C++", "C#", "Java"], answer: "C#" },
