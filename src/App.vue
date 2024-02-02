@@ -63,7 +63,7 @@
 </script>
 
 <template>
-  <div class="dark:bg-gray-900 dark:text-gray-200 min-h-screen h-full text-4xl">
+  <div class="dark:bg-gray-900 dark:text-gray-200 min-h-screen h-full text-4xl flex">
     <div v-if="state.page == 'home'" class="container h-full flex justify-center items-center flex-col max-w-xl m-auto">
       <h1 class="text-3xl font-bold underline mb-20 text-6xl">
         Mis see on?
@@ -78,7 +78,6 @@
       <p class="mb-5">{{  finishMessage() }}</p>
       <p class="mb-5">Punktid: {{ state.points }}/{{  questions.length }}</p>
       <button class="bg-blue-700 hover:bg-blue-800 active:bg-blue-900 max-w-fit py-2 px-8 text-white rounded" @click="restartGame">Mängi veel kord</button>
-
     </div>
   </div>
 </template>
