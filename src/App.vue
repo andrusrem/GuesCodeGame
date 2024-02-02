@@ -63,7 +63,7 @@
 </script>
 
 <template>
-  <div class="dark:bg-gray-900 dark:text-gray-200 min-h-screen h-full text-4xl flex">
+  <div class="dark:bg-gray-900 dark:text-gray-200 min-h-screen h-full text-4xl flex justify-center items-center">
     <div v-if="state.page == 'home'" class="container h-full flex justify-center items-center flex-col max-w-xl m-auto">
       <h1 class="text-3xl font-bold underline mb-20 text-6xl">
         Mis see on?
